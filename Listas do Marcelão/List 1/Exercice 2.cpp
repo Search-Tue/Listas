@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     int mes;
-    cout << "Digite um número inteiro entre 1 e 12: ";
+    cout << "Digite um numero inteiro entre 1 e 12: ";
     cin >> mes;
 
     switch(mes) {
@@ -15,7 +15,7 @@ int main() {
             cout << "Fevereiro" << endl;
             break;
         case 3:
-            cout << "Março" << endl;
+            cout << "MarÃ§o" << endl;
             break;
         case 4:
             cout << "Abril" << endl;
@@ -45,7 +45,7 @@ int main() {
             cout << "Dezembro" << endl;
             break;
         default:
-            cout << "Mês inválido" << endl;
+            cout << "MÃªs invÃ¡lido" << endl;
     }
 
     return 0;
